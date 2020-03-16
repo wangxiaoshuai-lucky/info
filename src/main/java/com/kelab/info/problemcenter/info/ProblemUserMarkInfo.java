@@ -1,4 +1,4 @@
-package com.kelab.info.problemcenter;
+package com.kelab.info.problemcenter.info;
 
 public class ProblemUserMarkInfo {
 

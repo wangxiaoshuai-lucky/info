@@ -1,4 +1,4 @@
-package com.kelab.info.usercenter;
+package com.kelab.info.usercenter.info;
 
 public class UserInfo {
 

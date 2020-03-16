@@ -1,4 +1,4 @@
-package com.kelab.info.base.query.base;
+package com.kelab.info.base.query;
 
 public class PageQuery {
 

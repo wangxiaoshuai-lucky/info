@@ -1,4 +1,4 @@
-package com.kelab.info.base.query.base;
+package com.kelab.info.base.query;
 
 import java.util.ArrayList;
 import java.util.List;

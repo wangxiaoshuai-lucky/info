@@ -1,6 +1,6 @@
-package com.kelab.info.base.query.usercenter;
+package com.kelab.info.usercenter.query;
 
-import com.kelab.info.base.query.base.BaseQuery;
+import com.kelab.info.base.query.BaseQuery;
 
 public class UserQuery extends BaseQuery {
 
