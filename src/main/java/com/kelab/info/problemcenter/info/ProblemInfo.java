@@ -40,6 +40,9 @@ public class ProblemInfo {
 
     private Integer creatorId;
 
+    private Long createTime;
+
+    private Long modifyTime;
 
     /**
      * 下面几个属性为查询整理属性
@@ -56,6 +59,22 @@ public class ProblemInfo {
     private List<ProblemTagsInfo> tagsInfos;
 
     private UserInfo creatorInfo;
+
+    public Long getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Long createTime) {
+        this.createTime = createTime;
+    }
+
+    public Long getModifyTime() {
+        return modifyTime;
+    }
+
+    public void setModifyTime(Long modifyTime) {
+        this.modifyTime = modifyTime;
+    }
 
     public Integer getUserStatus() {
         return userStatus;
