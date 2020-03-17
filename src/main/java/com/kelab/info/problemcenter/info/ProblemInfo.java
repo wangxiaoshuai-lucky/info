@@ -20,7 +20,7 @@ public class ProblemInfo {
 
     private String sampleOutput;
 
-    private String hit;
+    private String hint;
 
     private Integer timeLimit;
 
@@ -156,12 +156,12 @@ public class ProblemInfo {
         this.sampleOutput = sampleOutput;
     }
 
-    public String getHit() {
-        return hit;
+    public String getHint() {
+        return hint;
     }
 
-    public void setHit(String hit) {
-        this.hit = hit;
+    public void setHint(String hint) {
+        this.hint = hint;
     }
 
     public Integer getTimeLimit() {
