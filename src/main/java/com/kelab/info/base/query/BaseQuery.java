@@ -21,6 +21,10 @@ public class BaseQuery extends PageQuery {
         }
     }
 
+    public void setIds(List<Integer> ids) {
+        this.ids = ids;
+    }
+
     public Integer getId() {
         return id;
     }

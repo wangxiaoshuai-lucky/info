@@ -8,7 +8,7 @@ public class ProblemQuery extends BaseQuery {
 
     private String source;
 
-    private String tagName;
+    private String tagsName;
 
     /**
      * 默认不用根据 title 或者 difficult 排序
@@ -33,12 +33,12 @@ public class ProblemQuery extends BaseQuery {
         this.source = source;
     }
 
-    public String getTagName() {
-        return tagName;
+    public String getTagsName() {
+        return tagsName;
     }
 
-    public void setTagName(String tagName) {
-        this.tagName = tagName;
+    public void setTagsName(String tagsName) {
+        this.tagsName = tagsName;
     }
 
     public boolean isOrderByTitle() {
