@@ -14,10 +14,7 @@ public class UserQuery extends BaseQuery {
 
     private boolean isLikeUsername = true;
 
-    private boolean withSubmitInfo = true;
-
     private boolean sortByAcNum = false;
-
 
     public Integer getRoleId() {
         return roleId;
@@ -57,14 +54,6 @@ public class UserQuery extends BaseQuery {
 
     public void setLikeUsername(boolean likeUsername) {
         isLikeUsername = likeUsername;
-    }
-
-    public boolean isWithSubmitInfo() {
-        return withSubmitInfo;
-    }
-
-    public void setWithSubmitInfo(boolean withSubmitInfo) {
-        this.withSubmitInfo = withSubmitInfo;
     }
 
     public boolean isSortByAcNum() {
