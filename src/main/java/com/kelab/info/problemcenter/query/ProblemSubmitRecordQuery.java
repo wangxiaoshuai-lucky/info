@@ -1,4 +1,4 @@
-package com.kelab.info.problemcenter.info;
+package com.kelab.info.problemcenter.query;
 
 import com.kelab.info.base.query.BaseQuery;
 
