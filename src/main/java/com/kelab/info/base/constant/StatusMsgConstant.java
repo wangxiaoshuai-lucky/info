@@ -15,4 +15,6 @@ public class StatusMsgConstant extends BaseRetCodeConstant {
     public static String PWD_FORMAT_ERROR = "PWD_FORMAT_ERROR";
 
     public static String STUDENT_ID_EXISTED_ERROR = "STUDENT_ID_EXISTED_ERROR";
+
+    public static String INCORRECT_FILE_FORMAT = "INCORRECT_FILE_FORMAT";
 }
