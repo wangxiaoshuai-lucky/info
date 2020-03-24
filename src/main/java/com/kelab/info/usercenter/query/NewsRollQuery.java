@@ -4,13 +4,13 @@ import com.kelab.info.base.query.BaseQuery;
 
 public class NewsRollQuery extends BaseQuery {
 
-	private Integer active;
+	private Boolean active;
 
-	public Integer getActive() {
+	public Boolean getActive() {
 		return active;
 	}
 
-	public void setActive(Integer active) {
+	public void setActive(Boolean active) {
 		this.active = active;
 	}
 }
