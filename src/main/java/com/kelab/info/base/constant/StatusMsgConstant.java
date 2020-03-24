@@ -17,4 +17,8 @@ public class StatusMsgConstant extends BaseRetCodeConstant {
     public static String STUDENT_ID_EXISTED_ERROR = "STUDENT_ID_EXISTED_ERROR";
 
     public static String INCORRECT_FILE_FORMAT = "INCORRECT_FILE_FORMAT";
+
+    public static String COMPETITION_NOT_EXIST_OR_CLOSE = "COMPETITION_NOT_EXIST_OR_CLOSE";
+
+    public static String TEAM_IS_EXISTED = "TEAM_IS_EXISTED";
 }
