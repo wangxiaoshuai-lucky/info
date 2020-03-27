@@ -1,5 +1,7 @@
 package com.kelab.info.problemcenter.info;
 
+import java.util.Objects;
+
 public class LevelProblemInfo {
     private Integer id;
 
@@ -39,5 +41,20 @@ public class LevelProblemInfo {
 
     public void setGrade(Integer grade) {
         this.grade = grade;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof LevelProblemInfo)) return false;
+        LevelProblemInfo that = (LevelProblemInfo) o;
+        return getProId().equals(that.getProId()) &&
+                getLevelId().equals(that.getLevelId()) &&
+                getGrade().equals(that.getGrade());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getProId(), getLevelId(), getGrade());
     }
 }
