@@ -8,6 +8,8 @@ public class ProblemUserMarkInfo {
 
     private String title;
 
+    private Long markTime;
+
     public Integer getUserId() {
         return userId;
     }
@@ -30,5 +32,13 @@ public class ProblemUserMarkInfo {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public Long getMarkTime() {
+        return markTime;
+    }
+
+    public void setMarkTime(Long markTime) {
+        this.markTime = markTime;
     }
 }
