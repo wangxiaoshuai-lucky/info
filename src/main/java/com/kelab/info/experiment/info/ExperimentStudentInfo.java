@@ -10,6 +10,8 @@ public class ExperimentStudentInfo {
 
     private Integer classId;
 
+    private Integer groupId;
+
     private Integer status;
 
     private UserInfo studentInfo;
@@ -52,5 +54,13 @@ public class ExperimentStudentInfo {
 
     public void setStudentInfo(UserInfo studentInfo) {
         this.studentInfo = studentInfo;
+    }
+
+    public Integer getGroupId() {
+        return groupId;
+    }
+
+    public void setGroupId(Integer groupId) {
+        this.groupId = groupId;
     }
 }
