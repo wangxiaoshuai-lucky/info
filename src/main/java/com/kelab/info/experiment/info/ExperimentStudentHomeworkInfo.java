@@ -1,5 +1,7 @@
 package com.kelab.info.experiment.info;
 
+import com.kelab.info.usercenter.info.UserInfo;
+
 public class ExperimentStudentHomeworkInfo {
 
     private Integer id;
@@ -19,6 +21,32 @@ public class ExperimentStudentHomeworkInfo {
     private String comment;
 
     private Long commentTime;
+
+    /**
+     * 个人提交
+     */
+    private UserInfo postUserInfo;
+
+    /**
+     * 分组提交
+     */
+    private ExperimentGroupInfo postGroupInfo;
+
+    public UserInfo getPostUserInfo() {
+        return postUserInfo;
+    }
+
+    public void setPostUserInfo(UserInfo postUserInfo) {
+        this.postUserInfo = postUserInfo;
+    }
+
+    public ExperimentGroupInfo getPostGroupInfo() {
+        return postGroupInfo;
+    }
+
+    public void setPostGroupInfo(ExperimentGroupInfo postGroupInfo) {
+        this.postGroupInfo = postGroupInfo;
+    }
 
     public Integer getId() {
         return id;

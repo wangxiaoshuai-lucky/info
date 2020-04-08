@@ -26,7 +26,7 @@ public class ExperimentStudentHomeworkQuery extends BaseQuery {
         this.targetId = targetId;
     }
 
-    public boolean isComment() {
+    public Boolean isComment() {
         return isComment;
     }
 
