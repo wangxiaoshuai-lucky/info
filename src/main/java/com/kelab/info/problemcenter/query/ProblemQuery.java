@@ -17,6 +17,11 @@ public class ProblemQuery extends BaseQuery {
 
     private boolean orderByDifficult = false;
 
+    /**
+     * 默认查询审核通过的
+     */
+    private boolean filterPassReview = true;
+
     public String getTitle() {
         return title;
     }
@@ -55,5 +60,13 @@ public class ProblemQuery extends BaseQuery {
 
     public void setOrderByDifficult(boolean orderByDifficult) {
         this.orderByDifficult = orderByDifficult;
+    }
+
+    public boolean isFilterPassReview() {
+        return filterPassReview;
+    }
+
+    public void setFilterPassReview(boolean filterPassReview) {
+        this.filterPassReview = filterPassReview;
     }
 }
